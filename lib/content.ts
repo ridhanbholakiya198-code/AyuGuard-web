@@ -3,9 +3,9 @@
 
 export const GITHUB_PROFILE = "https://github.com/ridhanbholakiya198-code";
 export const GITHUB_RELEASES =
-  "https://github.com/ridhanbholakiya198-code/AyuGuard/releases/tag/v1.0.1";
-export const APK_PATH = "/apk/AyuGuard-v1.0.1.apk";
-export const APP_VERSION = "v1.0.1";
+  "https://github.com/ridhanbholakiya198-code/AyuGuard/releases/tag/v1.1.0";
+export const APK_PATH = "/apk/AyuGuard-v1.1.0.apk";
+export const APP_VERSION = "v1.1.0";
 
 export const engineeringDecisions = [
   {

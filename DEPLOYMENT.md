@@ -16,7 +16,7 @@ vercel login
 vercel --prod
 ```
 
-## Option B — Deploy to any Node host
+## Local / Node deployment
 
 ```bash
 npm install
@@ -25,16 +25,6 @@ npm run start
 ```
 
 The app listens on port 3000 by default (override with `PORT=xxxx npm run start`).
-
-## Option C — Static export
-
-This project uses standard Next.js APIs compatible with static export if you don't
-need the `/apk` download headers behavior. To export:
-
-1. Remove the `headers()` function in `next.config.js` (not supported in static export).
-2. Add `output: "export"` to `next.config.js`.
-3. Run `npm run build`. Static files will be in `/out`.
-4. Deploy `/out` to any static host (GitHub Pages, Netlify, S3, Cloudflare Pages).
 
 ## Environment
 

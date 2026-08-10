@@ -55,37 +55,12 @@ ayuguard-website/
 
 ## Replacing the APK
 
-The primary download button links to `/public/apk/AyuGuard-v1.0.1.apk`. To ship a
+The primary download button links to `/public/apk/AyuGuard-v1.1.0.apk`. To ship a
 new build:
 
-1. Replace the file at `public/apk/AyuGuard-v1.0.1.apk` (or update the filename).
+1. Replace the file at `public/apk/AyuGuard-v1.1.0.apk` (or update the filename).
 2. Update `APK_PATH` and `APP_VERSION` in `lib/content.ts`.
 3. Update the `GITHUB_RELEASES` URL if the release tag changed.
-
-## v2 — Premium Redesign Notes
-
-This pass focused on elevation, hierarchy, and motion polish without touching
-copy, screenshots, routing, or the APK/GitHub links:
-
-- Added a layered elevation system (`.card`, `.card-interactive`, `shadow-card`,
-  `shadow-card-hover`) so surfaces read as tiered instead of flat borders on black.
-- Rebuilt buttons as `.btn-primary` / `.btn-secondary` primitives with gradient,
-  inset highlight, and lift-on-hover — replacing flat single-color pills.
-- Introduced a real type scale (`text-display-xl/lg/md`) and applied it to the
-  hero headline for a stronger Apple/Linear-style scale jump.
-- Added a consistent `.section-label` (mono, tracked, with a leading tick mark)
-  used across every section eyebrow instead of ad hoc classes.
-- Varied section vertical rhythm (secondary sections now `py-20 sm:py-28` vs.
-  primary sections `py-24 sm:py-32`) so the page doesn't scroll monotonously.
-- Rebuilt the Screenshots section from a dense 8-up grid into a horizontal,
-  snap-scrolling showcase strip with manual prev/next controls — reads as
-  a curated product tour rather than a gallery dump.
-- Added a subtle floating animation and staggered spec-card reveals to the hero
-  device, and an active-state indicator to the Core Features list.
-- Gave the footer a soft top gradient hairline and a large low-opacity wordmark
-  sign-off, matching the Apple/Nothing/Linear pattern of a confident brand close.
-
-No functionality, routes, or content facts were changed or removed.
 
 ## Design System
 

@@ -40,9 +40,6 @@ export default function Header() {
           <span className="font-display text-[15px] font-semibold tracking-tight text-white">
             AyuGuard
           </span>
-          <span className="eyebrow rounded-full border border-signal/40 px-2 py-0.5 text-signal">
-            Beta
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">

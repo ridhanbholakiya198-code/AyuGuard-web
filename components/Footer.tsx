@@ -66,7 +66,7 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/8 pt-8 sm:flex-row">
           <p className="text-[12.5px] text-ink-500">
-            AyuGuard V1 Beta — made by{" "}
+            AyuGuard V1.1.0 — made by{" "}
             <a
               href={GITHUB_PROFILE}
               target="_blank"

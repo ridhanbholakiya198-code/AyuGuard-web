@@ -20,7 +20,7 @@ export default function Screenshots() {
           <Reveal className="max-w-2xl">
             <p className="section-label mb-5">Screenshots</p>
             <h2 className="font-display text-balance text-3xl font-semibold leading-tight text-white sm:text-4xl">
-              The working AyuGuard V1 Beta build.
+              The current AyuGuard V1.1.0 build.
             </h2>
           </Reveal>
 
